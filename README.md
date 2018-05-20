@@ -1,1 +1,1 @@
-# angular2-learning
+# angular6-learning
