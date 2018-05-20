@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<input type="text" [(ngModel)]="title">
+<app-box (show)="getMsg($event)" [Msg]="title"></app-box>
+<ul>
+  <li *ngFor="let m of menu">{{m.missionname}}</li>
+</ul>
